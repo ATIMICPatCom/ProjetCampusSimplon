@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rapport Global des Ventes</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .graph-container { display: flex; flex-wrap: wrap; gap: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Rapport Global des Ventes de l'Entreprise</h1>
+
+    <h2>1. Extrêmes des ventes (Calculé en Python Natif)</h2>
+    <ul>
+        <li><strong>$texte_plus_vendu</strong></li>
+        <li><strong>$texte_moins_vendu</strong></li>
+    </ul>
+
+    <h2>2. Visualisations des ventes</h2>
+    <div class="graph-container">
+        <div>$html_fig_region</div>
+        <div>$html_fig_vol_prod</div>
+        <div>$html_fig_ca_prod</div>
+    </div>
+
+    <h2>3. Tableaux Statistiques Détaillés</h2>
+    
+    <h3>Moyenne par produit</h3>
+    $html_moyenne
+
+    <h3>Médiane par produit</h3>
+    $html_mediane
+
+    <h3>Écart-type du volume par produit</h3>
+    $html_ecart
+
+    <h3>Variance du volume par produit</h3>
+    $html_var
+
+</body>
+</html>
